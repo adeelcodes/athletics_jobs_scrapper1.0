@@ -1,0 +1,9 @@
+*.pyc
+.idea
+venv
+data-mongo
+*.log
+*.json
+test.py
+.env
+token.pickle
