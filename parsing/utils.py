@@ -60,7 +60,7 @@ def send_email_with_some_error() -> NoReturn:
     gmail_password = env.str('GMAIL_PASSWORD')
 
     sent_from = gmail_user
-    to = ['adeel.maliks20@gmail.com', 'athleticsjobs@gmail.com']
+    to = ['recipient@gmail.com', 'another_recipient@gmail.com']
     subject = 'SOS, an error occurred'
     body = 'An error occurred that needs human attention'
 
